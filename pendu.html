@@ -39,6 +39,11 @@
             }
 
         }
+        if (!user.match(/[a-z\-]/gi)) {
+            alert('seulement les lettres de l\'alphabet')
+        } else if (user.length !== 1) {
+            alert('just 1')
+        }
 </script>
 </body>
 </html>
