@@ -23,34 +23,46 @@
         alert("L'ordinateur a choisi " + ordi)
         console.log(chanceUser)
         console.log(chanceOrdi)
-        if (ordi === user){
+        if (ordi === user) {
             alert('égalité')
         }
-        if (ordi === "pierre"){
-            if (user === "ciseaux"){
+        if (ordi === "pierre") {
+            if (user === "ciseaux") {
                 alert("l'ordi gagne")
                 chanceUser--
-            }else if (user === "feuille"){
+            } else if (user === "feuille") {
                 alert('Vous avez gagné')
                 chanceOrdi--
             }
-        } else if (ordi === "feuille"){
-            if (user === "ciseaux"){
+        } else if (ordi === "feuille") {
+            if (user === "ciseaux") {
                 alert('Vous avez gagné')
                 chanceOrdi--
-            } else if (user === "pierre"){
+            } else if (user === "pierre") {
                 alert("L'ordi gagne")
                 chanceUser--
             }
-        } else if (ordi === "ciseaux"){
-            if (user === "feuille"){
+        } else if (ordi === "ciseaux") {
+            if (user === "feuille") {
                 alert("L'ordi gagne")
                 chanceUser--
-            } else if (user === "pierre"){
+            } else if (user === "pierre") {
                 alert("vous avez gagné")
                 chanceOrdi--
             }
         }
+        if (chanceOrdi === 0) {
+            break
+        }
+        if (chanceUser === 0) {
+            break
+        }
+    }
+    if (chanceOrdi < 1) {
+        alert("L'ordi a perdu la partie")
+    } else {
+        alert('Vous avez gagné la partie')
+    }
 </script>
 </body>
 </html>
