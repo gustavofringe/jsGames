@@ -31,6 +31,14 @@
             alert('Dèja utilisé')
             findLetter++
         }
+        console.log("reste " + chance + ' chance')
+        for (var h = 0; h < word.length; h++) {
+            if (word[h] != user) {
+                chance--
+                break;
+            }
+
+        }
 </script>
 </body>
 </html>

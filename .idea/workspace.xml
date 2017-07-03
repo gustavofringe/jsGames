@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3c3b46-390d-4325-9afd-5c4e29d1b0e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pendu.html" afterPath="$PROJECT_DIR$/pendu.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/pendu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -28,8 +27,8 @@
       <file leaf-file-name="pendu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../exosjs/pendu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="116">
+              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="43" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -130,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499080546501</updated>
-      <workItem from="1499080551468" duration="417000" />
+      <workItem from="1499080551468" duration="555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417000" />
+    <option name="totallyTimeSpent" value="555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1368" height="745" extended-state="6" />
@@ -181,8 +180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../exosjs/pendu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="116">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="43" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -190,7 +189,7 @@
     <entry file="file://$PROJECT_DIR$/pendu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding />
         </state>
       </provider>
