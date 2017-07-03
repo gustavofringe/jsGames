@@ -24,6 +24,13 @@
     var findLetter = word.length
 
     var chance = 10
+    while (findLetter >= 0 && chance != 0) {
+        alert(letter.join(" "))
+        var user = prompt("Entre une lettre \n Attention 10 vous avez chance\n il ne vous reste que " + chance).toLowerCase()
+        if (letter.includes(user)) {
+            alert('Dèja utilisé')
+            findLetter++
+        }
 </script>
 </body>
 </html>
