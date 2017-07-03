@@ -43,7 +43,28 @@
             alert('seulement les lettres de l\'alphabet')
         } else if (user.length !== 1) {
             alert('just 1')
+        }else {
+            for (var j = 0; j < word.length; j++) {
+                if (word[j] === user) {
+                    letter[j] = user
+                    findLetter--
+                    console.log("Reste "+findLetter+" lettre(s) a trouver")
+                }
+            }
         }
+        if (findLetter === 0) {
+            alert('Super vous avez trouvé le mot '+word)
+            break;
+        }
+        if (chance < 1) {
+            alert("Désolé le mot était" + word)
+            break;
+        }
+
+    }
+    if (chance > 1) {
+        alert('Super vous avez trouvé le mot '+word)
+    }
 </script>
 </body>
 </html>

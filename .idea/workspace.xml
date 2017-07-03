@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3c3b46-390d-4325-9afd-5c4e29d1b0e8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pendu.html" afterPath="$PROJECT_DIR$/pendu.html" />
     </list>
@@ -18,8 +19,8 @@
       <file leaf-file-name="pendu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pendu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="1453">
+              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -28,8 +29,8 @@
       <file leaf-file-name="pendu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../exosjs/pendu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="290">
+              <caret line="69" column="9" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="69" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -54,6 +55,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../exosjs/pendu.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pendu.html" />
       </list>
     </option>
@@ -107,6 +109,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,12 +133,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499080546501</updated>
-      <workItem from="1499080551468" duration="719000" />
+      <workItem from="1499080551468" duration="1092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="719000" />
+    <option name="totallyTimeSpent" value="1092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1368" height="745" extended-state="6" />
@@ -179,18 +182,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../exosjs/pendu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="290">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="69" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pendu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="1453">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding />
         </state>
       </provider>
