@@ -8,8 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-var chanceOrdi = 3
-var chanceUser = 3
+<script>
+    var chanceOrdi = 3
+    var chanceUser = 3
+    while (chanceOrdi >= 0 || chanceUser >= 0) {
+        var elements = ["pierre", "feuille", "ciseaux"]
+        var ordi = elements[Math.floor(Math.random() * elements.length)]
 
+        var user = prompt('Fais ton choix: pierre, feuille ou ciseaux\n Vous avez ' + chanceUser + " chance")
+
+        if (!user.match(/[a-z\-]/gi)) {
+            alert('only alphanumeric caracter')
+        }
+        alert("L'ordinateur a choisi " + ordi)
+</script>
 </body>
 </html>
