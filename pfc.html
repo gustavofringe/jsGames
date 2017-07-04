@@ -9,55 +9,67 @@
 </head>
 <body>
 <script>
-    var chanceOrdi = 0
-    var chanceUser = 0
+    var chanceOrdi = 0;
+    var chanceUser = 0;
     while (chanceOrdi <= 3 && chanceUser <= 3) {
-        var elements = ["pierre", "feuille", "ciseaux"]
-        var ordi = elements[Math.floor(Math.random() * elements.length)]
+        var elements = ["pierre", "feuille", "ciseaux"];
+        var ordi = elements[Math.floor(Math.random() * elements.length)];
 
-        var user = prompt('Fais ton choix: pierre, feuille ou ciseaux\n Vous avez ' + chanceUser + " points")
-
-        if (!user.match(/[a-z\-]/gi)) {
-            alert('only alphanumeric caracter')
+        var user = prompt('Fais ton choix: pierre, feuille ou ciseaux\n Vous avez ' + chanceUser + " points").toLocaleLowerCase();
+        
+        /*if(!user.match(/pierre/)){
+            alert("Mauvaise donnée on 1recommence");
+            break;
         }
-        alert("L'ordinateur a choisi " + ordi)
-        console.log("user a "+chanceUser)
-        console.log("ordi a "+chanceOrdi)
+        /*else if(!user.match(/feuille/)){
+            alert("Mauvaise donnée on 2recommence");
+            break;
+        }
+        else if (!user.match(/ciseaux/)){
+            alert("Mauvaise donnée on 3recommence");
+            break;
+        }*/
+        if (!user.match(/[a-z]/gi)) {
+            alert('only alphanumeric caracter');
+        }
+        alert("L'ordinateur a choisi " + ordi);
+        console.log("user a "+chanceUser);
+        console.log("ordi a "+chanceOrdi);
         if (ordi === user) {
-            alert('égalité')
+            alert('égalité');
         }
         if (ordi === "pierre") {
             if (user === "ciseaux") {
-                alert("l'ordi gagne")
-                chanceOrdi++
+                alert("l'ordi gagne");
+                chanceOrdi++;
             } else if (user === "feuille") {
-                alert('Vous avez gagné')
-                chanceUser++
+                alert('Vous avez gagné');
+                chanceUser++;
             }
         } else if (ordi === "feuille") {
             if (user === "ciseaux") {
-                alert('Vous avez gagné')
-                chanceUser++
+                alert('Vous avez gagné');
+                chanceUser++;
             } else if (user === "pierre") {
-                alert("L'ordi gagne")
-                chanceOrdi++
+                alert("L'ordi gagne");
+                chanceOrdi++;
             }
         } else if (ordi === "ciseaux") {
             if (user === "feuille") {
-                alert("L'ordi gagne")
-                chanceOrdi++
+                alert("L'ordi gagne");
+                chanceOrdi++;
             } else if (user === "pierre") {
-                alert("vous avez gagné")
-                chanceUser++
+                alert("vous avez gagné");
+                chanceUser++;
             }
         }
     if (chanceOrdi === 3) {
-        alert("L'ordi a gagné la partie")
-        break
+        alert("L'ordi a gagné la partie");
+        break;
     }
     if (chanceUser === 3) {
-        alert('Vous avez gagné la partie')
-        break
+        alert('Vous avez gagné la partie');
+        break;
     }
     }
 </script>
