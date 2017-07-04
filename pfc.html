@@ -9,59 +9,56 @@
 </head>
 <body>
 <script>
-    var chanceOrdi = 3
-    var chanceUser = 3
-    while (chanceOrdi >= 0 || chanceUser >= 0) {
+    var chanceOrdi = 0
+    var chanceUser = 0
+    while (chanceOrdi <= 3 && chanceUser <= 3) {
         var elements = ["pierre", "feuille", "ciseaux"]
         var ordi = elements[Math.floor(Math.random() * elements.length)]
 
-        var user = prompt('Fais ton choix: pierre, feuille ou ciseaux\n Vous avez ' + chanceUser + " chance")
+        var user = prompt('Fais ton choix: pierre, feuille ou ciseaux\n Vous avez ' + chanceUser + " points")
 
         if (!user.match(/[a-z\-]/gi)) {
             alert('only alphanumeric caracter')
         }
         alert("L'ordinateur a choisi " + ordi)
-        console.log(chanceUser)
-        console.log(chanceOrdi)
+        console.log("user a "+chanceUser)
+        console.log("ordi a "+chanceOrdi)
         if (ordi === user) {
             alert('égalité')
         }
         if (ordi === "pierre") {
             if (user === "ciseaux") {
                 alert("l'ordi gagne")
-                chanceUser--
+                chanceOrdi++
             } else if (user === "feuille") {
                 alert('Vous avez gagné')
-                chanceOrdi--
+                chanceUser++
             }
         } else if (ordi === "feuille") {
             if (user === "ciseaux") {
                 alert('Vous avez gagné')
-                chanceOrdi--
+                chanceUser++
             } else if (user === "pierre") {
                 alert("L'ordi gagne")
-                chanceUser--
+                chanceOrdi++
             }
         } else if (ordi === "ciseaux") {
             if (user === "feuille") {
                 alert("L'ordi gagne")
-                chanceUser--
+                chanceOrdi++
             } else if (user === "pierre") {
                 alert("vous avez gagné")
-                chanceOrdi--
+                chanceUser++
             }
         }
-        if (chanceOrdi === 0) {
-            break
-        }
-        if (chanceUser === 0) {
-            break
-        }
+    if (chanceOrdi === 3) {
+        alert("L'ordi a gagné la partie")
+        break
     }
-    if (chanceOrdi < 1) {
-        alert("L'ordi a perdu la partie")
-    } else {
+    if (chanceUser === 3) {
         alert('Vous avez gagné la partie')
+        break
+    }
     }
 </script>
 </body>
